@@ -2,10 +2,6 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
 import { TailcastLogo } from "../assets/logos/TailcastLogo";
-import { GithubIcon } from "../assets/icons/GithubIcon";
-import { FacebookIcon } from "../assets/icons/FacebookIcon";
-import { InstagramIcon } from "../assets/icons/InstagramIcon";
-import { TwitterIcon } from "../assets/icons/TwitterIcon";
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -43,43 +39,29 @@ export const Navbar = () => {
             <a className="navbar-link" href="#features" aria-label="Features">
               Features
             </a>
-            <a className="navbar-link" href="#pricing" aria-label="Pricing">
+            {/* <a className="navbar-link" href="#pricing" aria-label="Pricing">
               Pricing
-            </a>
-            <a className="navbar-link" href="#feedback" aria-label="Feedback">
+            </a> */}
+            {/* <a className="navbar-link" href="#feedback" aria-label="Feedback">
               Feedback
-            </a>
-            <a className="navbar-link" href="#FAQ" aria-label="FAQ">
+            </a> */}
+            {/* <a className="navbar-link" href="#FAQ" aria-label="FAQ">
               FAQ
-            </a>
+            </a> */}
           </div>
         </motion.div>
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 0.3 }}
-          exit={{ opacity: 0 }}
-        >
-          <div className="grow basis-0 justify-end hidden lg:flex">
-            <a
-              className="text-white custom-border-gray rounded-xl
-           bg-customDarkBg2 hover:bg-customDarkBg3  border-gray-700 pl-6 pr-8 pt-2 pb-2 text-sm flex"
-              href="https://github.com/matt765/Tidestream"
-              target="_blank"
-              aria-label="source code"
-            >
-              <GithubIcon />
-              Source code
-            </a>
-          </div>
-        </motion.div>
+
         <div
-          className="lg:hidden flex flex-col  px-2 py-3 border-solid border border-gray-600 rounded-md cursor-pointer hover:bg-customDarkBg2"
+          className="text-white font-bold lg:hidden flex flex-col  px-2 py-3 cursor-pointer hover:bg-customDarkBg2"
           onClick={() => setIsOpen(!isOpen)}
         >
-          <div className="w-5 h-0.5 bg-gray-500  mb-1"></div>
-          <div className="w-5 h-0.5 bg-gray-500  mb-1"></div>
-          <div className="w-5 h-0.5 bg-gray-500 "></div>
+          {isOpen ? (
+            <p>close</p>
+          ) : (
+            <>
+              <p>menu</p>
+            </>
+          )}
         </div>
       </div>
       <AnimatePresence>
@@ -111,39 +93,30 @@ export const Navbar = () => {
               >
                 Features
               </a>
-              <a
+              {/* <a
                 className="navbar-link"
                 href="#pricing"
                 onClick={() => setIsOpen(false)}
                 aria-label="Pricing"
               >
                 Pricing
-              </a>
-              <a
+              </a> */}
+              {/* <a
                 className="navbar-link"
                 href="#feedback"
                 onClick={() => setIsOpen(false)}
                 aria-label="Feedback"
               >
                 Feedback
-              </a>
-              <a
+              </a> */}
+              {/* <a
                 className="navbar-link"
                 href="#FAQ"
                 onClick={() => setIsOpen(false)}
                 aria-label="FAQ"
               >
                 FAQ
-              </a>
-              <a
-                className="text-white custom-border-gray rounded-xl
-           bg-customDarkBg2 hover:bg-customDarkBg3  border-gray-700 pl-6 pr-8 pt-2 pb-2 text-sm flex"
-                href="https://github.com/matt765/Tidestream"
-                target="_blank"
-              >
-                <GithubIcon />
-                Source code
-              </a>
+              </a> */}
             </div>
           </motion.div>
         )}

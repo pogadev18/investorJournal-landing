@@ -28,7 +28,10 @@ export const Hero = () => {
           transition={{ duration: 0.5, delay: 0.05 }}
         >
           <div className="text-3xl sm:text-3xl lg:text-3xl xl:text-4xl font-bold tracking-wide  text-white  px-8 sm:px-8 md:px-20 lg:px-4">
-            <span className="md:inline">A personal journal for organized, engaged and confident long-term investing for a happier financial future.</span>
+            <span className="md:inline">
+              A personal journal for organized, engaged and confident long-term
+              investing for a happier financial future.
+            </span>
           </div>
         </motion.div>
         <motion.div
@@ -38,7 +41,7 @@ export const Hero = () => {
         >
           <div className="text-customGrayText text-sm lg:text-base xl:text-lg sm:text-base mt-10 px-12 sm:px-48 ">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-            consequat laoreet lacinia. Phasellus 
+            consequat laoreet lacinia. Phasellus
           </div>
         </motion.div>
         <motion.div
@@ -48,17 +51,17 @@ export const Hero = () => {
         >
           <div className="flex flex-col gap-2 sm:flex-row mt-14 mb-24 sm:mb-40 justify-center">
             <div
-              className="custom-button-colored w-80 sm:w-52 h-12 mr-0 sm:mr-4 lg:mr-6 mb-2 sm:mb-0"
+              className="custom-button-colored w-80 sm:w-52 h-12 mr-0 sm:mb-0"
               onClick={() => setIsModalOpen(true)}
             >
-              Get Started
+              I'm Interested
             </div>
-            <div
+            {/* <div
               className="w-80 sm:w-52 h-12 rounded-xl font-bold text-white border border-solid  flex justify-center items-center cursor-pointer bg-customDarkBg2 hover:bg-customDarkBg3 border-customPrimary transition"
               onClick={() => setIsModalOpen(true)}
             >
               Live demo
-            </div>
+            </div> */}
           </div>
         </motion.div>
         <motion.div
