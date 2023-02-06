@@ -148,7 +148,7 @@ export const InvitationModal = ({ setIsOpen }) => {
                         </>
                       )}
 
-                      {emailAlreadyRegistered && (
+                      {emailAlreadyRegistered && !successMesage && (
                         <p className="text-red-400 mt-2 text-sm">
                           It looks like this email is already registerd for the
                           newsletter! Try again with a new one.
