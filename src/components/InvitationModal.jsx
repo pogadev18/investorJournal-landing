@@ -52,8 +52,6 @@ export const InvitationModal = ({ setIsOpen }) => {
     }
   };
 
-  // DB Pass: MZfN6Vztczd8nXK3
-
   return (
     <AnimatePresence>
       <motion.div
