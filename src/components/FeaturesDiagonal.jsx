@@ -35,7 +35,7 @@ export const FeaturesDiagonal = () => {
               Dolor sit amet consectutar
             </span>
             <h2 className="mt-10 mb-8 text-4xl lg:text-5xl custom-block-big-title">
-              A brief look at your investments from the Calendar
+              A brief look at your investments from your Calendar
             </h2>
             <p className="mb-16 text-customGrayText leading-loose">
               Access your Calendar from the Dashboard and take a look at every

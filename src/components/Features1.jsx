@@ -68,7 +68,7 @@ export const Features1 = () => {
                 />
               </div>
             </div>
-            <div className="w-1/2 lg:mt-20  pt-12 lg:pt-0 px-2 hidden sm:inline-block">
+            <div className="sm:w-1/2 lg:mt-20 sm:pt-12 lg:pt-0 px-2 sm:inline-block block">
               <div className="mb-4 py-3 pl-3 pr-2 rounded-lg ">
                 <img
                   src={feature3}
