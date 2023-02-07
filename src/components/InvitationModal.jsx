@@ -73,22 +73,19 @@ export const InvitationModal = ({ setIsOpen }) => {
                 <h2 className="mt-6 mb-2 text-5xl font-bold tracking-normal text-white">
                   Subscribe Now
                 </h2>
-                <h2 className="text-5xl font-bold tracking-normal text-customSecondary">
-                  Winter is coming
-                </h2>
 
                 <ul className="mb-6 text-white mt-12">
                   <li className="mb-4 flex">
                     <CheckArrowIcon />
-                    <span>Vestibulum viverra</span>
+                    <span>be the first to know about any updates</span>
                   </li>
                   <li className="mb-4 flex">
                     <CheckArrowIcon />
-                    <span>Morbi mollis metus pretium</span>
+                    <span>test the application when it comes out</span>
                   </li>
                   <li className="mb-4 flex">
                     <CheckArrowIcon />
-                    <span>Etiam lectus nunc, commodo</span>
+                    <span>first 50 users will have extra benefits</span>
                   </li>
                 </ul>
               </div>
@@ -129,7 +126,6 @@ export const InvitationModal = ({ setIsOpen }) => {
                             id="newsletterInput"
                             type="email"
                             disabled={isLoading}
-                            placeholder="Your email address"
                           />
                           {isLoading ? (
                             <p className="text-white mt-2">submitting...</p>

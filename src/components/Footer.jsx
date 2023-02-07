@@ -1,7 +1,7 @@
-import { FacebookIcon } from "../assets/icons/FacebookIcon";
-import { InstagramIcon } from "../assets/icons/InstagramIcon";
+// import { FacebookIcon } from "../assets/icons/FacebookIcon";
+// import { InstagramIcon } from "../assets/icons/InstagramIcon";
 import { TailcastLogo } from "../assets/logos/TailcastLogo";
-import { TwitterIcon } from "../assets/icons/TwitterIcon";
+// import { TwitterIcon } from "../assets/icons/TwitterIcon";
 
 export const Footer = () => {
   return (
@@ -15,63 +15,55 @@ export const Footer = () => {
                   <TailcastLogo />
                 </div>
                 <div className="text-white font-['Inter'] font-bold text-xl">
-                  Tailcast
+                  My Investor Journal
                 </div>
               </div>
               <p className="mb-10 mt-4 sm:w-[22rem] lg:w-[20rem] xl:w-[24rem] text-gray-400 leading-loose text-center lg:text-left mx-auto lg:mx-0">
-                Dashboard images were made using free Dark Admin dashboard that
-                you can find 
-                <a
-                  href="https://bootstrapious.com/p/bootstrap-4-dark-admin"
-                  target="_blank"
-                  className="text-gray-100 ml-1.5 "
-                  aria-label="DarkAdmin"
-                >
-                   here.
-                </a>
+                A personal journal for organized, engaged and confident
+                long-term investing for a{" "}
+                <span className="font-bold text-yellow-500">
+                  happier financial future
+                </span>
+                .
               </p>
-              <div className="w-36 mx-auto lg:mx-0">
-                <a
-                  className="inline-block w-10  h-10 mr-2 p-2 bg-customDarkBg2 custom-border-gray  hover:bg-gray-700 rounded-xl"
-                  href="#"
-                >
-                  <FacebookIcon />
-                </a>
-                <a
-                  className="inline-block w-10  h-10 mr-2 p-2 bg-customDarkBg2 custom-border-gray  hover:bg-gray-700 rounded-xl"
-                  href="#"
-                >
-                  <TwitterIcon />
-                </a>
-                <a
-                  className="inline-block w-10  h-10 mr-2 p-2 bg-customDarkBg2 custom-border-gray  hover:bg-gray-700 rounded-xl"
-                  href="#"
-                >
-                  <InstagramIcon />
-                </a>
-              </div>
             </div>
-            <div className="w-full lg:w-2/3  lg:pl-16 hidden lg:flex flex-wrap justify-between">
+            {/* <div className="w-full lg:w-2/3  lg:pl-16 hidden lg:flex flex-wrap justify-between">
               <div className="w-full md:w-1/3 lg:w-auto mb-16 md:mb-0">
                 <h3 className="mb-6 text-2xl font-bold text-white">Products</h3>
                 <ul>
                   <li className="mb-4">
-                    <a className="text-gray-400 hover:text-gray-300" href="#" aria-label="" >
+                    <a
+                      className="text-gray-400 hover:text-gray-300"
+                      href="#"
+                      aria-label=""
+                    >
                       Services
                     </a>
                   </li>
                   <li className="mb-4">
-                    <a className="text-gray-400 hover:text-gray-300" href="#" aria-label="" >
+                    <a
+                      className="text-gray-400 hover:text-gray-300"
+                      href="#"
+                      aria-label=""
+                    >
                       About Us
                     </a>
                   </li>
                   <li className="mb-4">
-                    <a className="text-gray-400 hover:text-gray-300" href="#" aria-label="" >
+                    <a
+                      className="text-gray-400 hover:text-gray-300"
+                      href="#"
+                      aria-label=""
+                    >
                       News and Stories
                     </a>
                   </li>
                   <li>
-                    <a className="text-gray-400 hover:text-gray-300" href="#" aria-label="" >
+                    <a
+                      className="text-gray-400 hover:text-gray-300"
+                      href="#"
+                      aria-label=""
+                    >
                       Roadmap
                     </a>
                   </li>
@@ -83,32 +75,56 @@ export const Footer = () => {
                 </h3>
                 <ul>
                   <li className="mb-4">
-                    <a className="text-gray-400 hover:text-gray-300" href="#" aria-label="" >
+                    <a
+                      className="text-gray-400 hover:text-gray-300"
+                      href="#"
+                      aria-label=""
+                    >
                       Organization Team
                     </a>
                   </li>
                   <li className="mb-4">
-                    <a className="text-gray-400 hover:text-gray-300" href="#" aria-label="" >
+                    <a
+                      className="text-gray-400 hover:text-gray-300"
+                      href="#"
+                      aria-label=""
+                    >
                       Our Journeys
                     </a>
                   </li>
                   <li className="mb-4">
-                    <a className="text-gray-400 hover:text-gray-300" href="#" aria-label="" >
+                    <a
+                      className="text-gray-400 hover:text-gray-300"
+                      href="#"
+                      aria-label=""
+                    >
                       Pricing Plans
                     </a>
                   </li>
                   <li className="mb-4">
-                    <a className="text-gray-400 hover:text-gray-300" href="#" aria-label="" >
+                    <a
+                      className="text-gray-400 hover:text-gray-300"
+                      href="#"
+                      aria-label=""
+                    >
                       Roadmap
                     </a>
                   </li>
                   <li className="mb-4">
-                    <a className="text-gray-400 hover:text-gray-300" href="#" aria-label="" >
+                    <a
+                      className="text-gray-400 hover:text-gray-300"
+                      href="#"
+                      aria-label=""
+                    >
                       Terms &amp; Conditions
                     </a>
                   </li>
                   <li>
-                    <a className="text-gray-400 hover:text-gray-300" href="#" aria-label="" >
+                    <a
+                      className="text-gray-400 hover:text-gray-300"
+                      href="#"
+                      aria-label=""
+                    >
                       Privacy Policy
                     </a>
                   </li>
@@ -118,31 +134,47 @@ export const Footer = () => {
                 <h3 className="mb-6 text-2xl font-bold text-white">Company</h3>
                 <ul>
                   <li className="mb-4">
-                    <a className="text-gray-400 hover:text-gray-300" href="#" aria-label="" >
+                    <a
+                      className="text-gray-400 hover:text-gray-300"
+                      href="#"
+                      aria-label=""
+                    >
                       About Us
                     </a>
                   </li>
                   <li className="mb-4">
-                    <a className="text-gray-400 hover:text-gray-300" href="#" aria-label="" >
+                    <a
+                      className="text-gray-400 hover:text-gray-300"
+                      href="#"
+                      aria-label=""
+                    >
                       Jobs
                     </a>
                   </li>
                   <li className="mb-4">
-                    <a className="text-gray-400 hover:text-gray-300" href="#" aria-label="" >
+                    <a
+                      className="text-gray-400 hover:text-gray-300"
+                      href="#"
+                      aria-label=""
+                    >
                       Press
                     </a>
                   </li>
                   <li>
-                    <a className="text-gray-400 hover:text-gray-300" href="#" aria-label="" >
+                    <a
+                      className="text-gray-400 hover:text-gray-300"
+                      href="#"
+                      aria-label=""
+                    >
                       Contact Us
                     </a>
                   </li>
                 </ul>
               </div>
-            </div>
+            </div> */}
           </div>
           <p className="lg:text-center text-sm text-gray-400 border-t border-[rgb(255,255,255,0.2)] pt-12 mt-16 hidden lg:block">
-            &copy; 2022. MIT license.
+            &copy; 2023 My Investor Journal
           </p>
         </div>
       </div>

@@ -34,15 +34,16 @@ export const Features2 = () => (
 
         <div className="w-full lg:w-1/2 mb-12 lg:mb-0 xl:pl-8">
           <div className="mx-auto lg:mx-auto w-11/12 sm:w-4/5 md:w-3/4 lg:w-unset">
-            <span className="custom-block-subtitle">
-              Dolor sit amet consectutar
-            </span>
+            <span className="custom-block-subtitle">Investing is "a must"</span>
             <h2 className="mt-6 mb-8 text-4xl lg:text-5xl custom-block-big-title">
               Add personal notes to your investments
             </h2>
             <p className="mb-12 text-customGrayText leading-loose">
-              This is the place of your journal where you can add notes for the
-              investments that you make.
+              This is the place of your journal where you can{" "}
+              <span className="font-bold text-yellow-500">
+                add notes for the investments that you make
+              </span>
+              .
             </p>
             <p className="font-bold mb-5 text-customGrayText leading-loose">
               Why Taking Notes?

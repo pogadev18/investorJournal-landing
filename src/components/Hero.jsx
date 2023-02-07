@@ -19,7 +19,7 @@ export const Hero = () => {
           transition={{ duration: 0.5 }}
         >
           <div className="text-customSecondary text-sm sm:text-base  mb-6 sm:mt-32 mt-16  font-bold">
-            Discover your potential
+            Investing is easy
           </div>
         </motion.div>
         <motion.div
@@ -40,8 +40,10 @@ export const Hero = () => {
           transition={{ duration: 0.5, delay: 0.1 }}
         >
           <div className="text-customGrayText text-sm lg:text-base xl:text-lg sm:text-base mt-10 px-12 sm:px-48 ">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-            consequat laoreet lacinia. Phasellus
+            Don't worry about how to organize your investments! We
+            prepared&nbsp;
+            <span className="font-bold text-yellow-500">everything</span> for
+            you!
           </div>
         </motion.div>
         <motion.div
