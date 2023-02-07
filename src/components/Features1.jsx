@@ -28,22 +28,25 @@ export const Features1 = () => {
                 Unlike any tool you used before
               </h2>
               <p className="mb-10 text-customGrayText leading-loose">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Pellentesque efficitur nisl sodales egestas lobortis. Lorem
-                ipsum dolor sit amet, consectetur adipiscing elit.
+                Everything that you need is in{" "}
+                <span className="border-bottom">one place now</span>. With "My
+                Investor Journal" you don't have to worry about organizing your
+                investments in more than 1 place anymore.
               </p>
               <ul className="mb-6 text-white">
                 <li className="mb-4 flex">
                   <CheckArrowIcon />
-                  <span>Vestibulum viverra</span>
+                  <span>create potfolios and set allocations</span>
                 </li>
                 <li className="mb-4 flex">
                   <CheckArrowIcon />
-                  <span>Morbi mollis metus pretium</span>
+                  <span>view your investments in pie charts</span>
                 </li>
                 <li className="mb-4 flex">
                   <CheckArrowIcon />
-                  <span>Etiam lectus nunc, commodo</span>
+                  <span>
+                    create &amp; update your IPS (Investor Policy Statement)
+                  </span>
                 </li>
               </ul>
             </div>
@@ -70,13 +73,6 @@ export const Features1 = () => {
                 <img
                   src={feature3}
                   alt="f3"
-                  className="rounded-xl  custom-border-gray"
-                />
-              </div>
-              <div className="py-3 pl-3 pr-2 rounded-lg ">
-                <img
-                  src={feature4}
-                  alt="f4"
                   className="rounded-xl  custom-border-gray"
                 />
               </div>

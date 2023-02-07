@@ -35,12 +35,12 @@ export const FeaturesDiagonal = () => {
               Dolor sit amet consectutar
             </span>
             <h2 className="mt-10 mb-8 text-4xl lg:text-5xl custom-block-big-title">
-              Build &amp; Launch without problems
+              A brief look at your investments from the Calendar
             </h2>
             <p className="mb-16 text-customGrayText leading-loose">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Pellentesque efficitur nisl sodales egestas lobortis. Lorem ipsum
-              dolor sit amet, consectetur adipiscing elit.
+              Access your Calendar from the Dashboard and take a look at every
+              month / year and quickly see when and what investments you have
+              made.
             </p>
             <div
               className="w-[210px] h-12 custom-button-colored mr-10 "
