@@ -30,8 +30,9 @@ export const Features1 = () => {
                 <span className="font-bold text-yellow-500">
                   Everything that you need is in one place now
                 </span>
-                . With "My Investor Journal" you don't have to worry about
-                organizing your investments in more than 1 place anymore.
+                . With "My Investor Journal" you don't have to worry <br />
+                about organizing your investments in more than one place
+                anymore.
               </p>
               <ul className="mb-6 text-white">
                 <li className="mb-4 flex">

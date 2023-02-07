@@ -40,10 +40,11 @@ export const Hero = () => {
           transition={{ duration: 0.5, delay: 0.1 }}
         >
           <div className="text-customGrayText text-sm lg:text-base xl:text-lg sm:text-base mt-10 px-12 sm:px-48 ">
-            Don't worry about how to organize your investments! We
-            prepared&nbsp;
-            <span className="font-bold text-yellow-500">everything</span> for
-            you!
+            The only way to “stay alive” as a{" "}
+            <span className="font-bold text-yellow-500">
+              long-term investor
+            </span>{" "}
+            is to be disciplined and organized.
           </div>
         </motion.div>
         <motion.div
