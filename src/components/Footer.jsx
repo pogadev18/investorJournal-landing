@@ -19,7 +19,7 @@ export const Footer = () => {
                 </div>
               </div>
               <p className="mb-10 mt-4 sm:w-[22rem] lg:w-[20rem] xl:w-[24rem] text-gray-400 leading-loose text-center lg:text-left mx-auto lg:mx-0">
-                A personal journal for organized, engaged and confident
+                Your personal journal for organized, engaged and confident
                 long-term investing for a{" "}
                 <span className="font-bold text-yellow-500">
                   happier financial future

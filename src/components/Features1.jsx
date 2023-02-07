@@ -23,7 +23,8 @@ export const Features1 = () => {
             <div className="mx-auto lg:mx-auto w-11/12 sm:w-4/5 md:w-3/4 lg:w-unset">
               <span className="custom-block-subtitle">Investing is fun</span>
               <h2 className="mt-6 mb-8 text-4xl lg:text-5xl custom-block-big-title">
-                Unlike any tool you used before
+                Your space with all the <br />
+                data that you need
               </h2>
               <p className="mb-10 text-customGrayText leading-loose">
                 <span className="font-bold text-yellow-500">

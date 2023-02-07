@@ -19,7 +19,7 @@ export const Hero = () => {
           transition={{ duration: 0.5 }}
         >
           <div className="text-customSecondary text-sm sm:text-base  mb-6 sm:mt-32 mt-16  font-bold">
-            Investing is easy
+            Welcome To
           </div>
         </motion.div>
         <motion.div
@@ -29,8 +29,8 @@ export const Hero = () => {
         >
           <div className="text-3xl sm:text-3xl lg:text-3xl xl:text-4xl font-bold tracking-wide  text-white  px-8 sm:px-8 md:px-20 lg:px-4">
             <span className="md:inline">
-              A personal journal for organized, engaged and confident long-term
-              investing for a happier financial future.
+              Your personal journal for organized, engaged and confident
+              long-term investing for a happier financial future.
             </span>
           </div>
         </motion.div>
