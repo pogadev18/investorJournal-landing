@@ -27,7 +27,7 @@ export const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.05 }}
         >
-          <div className="text-3xl sm:text-3xl lg:text-3xl xl:text-4xl font-bold tracking-wide  text-white  px-8 sm:px-8 md:px-20 lg:px-4">
+          <div className="text-3xl sm:text-2xl lg:text-3xl xl:text-4xl font-bold tracking-wide  text-white  px-8 sm:px-8 md:px-20 lg:px-4">
             <span className="md:inline">
               Your personal journal for organized, engaged and confident
               long-term investing for a happier financial future.
@@ -39,7 +39,7 @@ export const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.1 }}
         >
-          <div className="text-customGrayText text-sm lg:text-base xl:text-lg sm:text-base mt-10 px-12 sm:px-48 ">
+          <div className="text-customGrayText text-md lg:text-base xl:text-lg sm:text-base mt-10 px-12 sm:px-48 ">
             The only way to “stay alive” as a{" "}
             <span className="font-bold text-yellow-500">
               long-term investor

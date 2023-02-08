@@ -45,9 +45,9 @@ export const Navbar = () => {
             {/* <a className="navbar-link" href="#feedback" aria-label="Feedback">
               Feedback
             </a> */}
-            {/* <a className="navbar-link" href="#FAQ" aria-label="FAQ">
+            <a className="navbar-link" href="#FAQ" aria-label="FAQ">
               FAQ
-            </a> */}
+            </a>
           </div>
         </motion.div>
 
