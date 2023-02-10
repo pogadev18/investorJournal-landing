@@ -1,6 +1,5 @@
 // import { FacebookIcon } from "../assets/icons/FacebookIcon";
 // import { InstagramIcon } from "../assets/icons/InstagramIcon";
-import { TailcastLogo } from "../assets/logos/TailcastLogo";
 // import { TwitterIcon } from "../assets/icons/TwitterIcon";
 
 export const Footer = () => {
@@ -11,10 +10,7 @@ export const Footer = () => {
           <div className="flex flex-wrap">
             <div className="w-full lg:w-1/3 mb-16 lg:mb-0">
               <div className="flex justify-center lg:justify-start items-center grow basis-0">
-                <div className="text-white mr-2 text-6xl">
-                  <TailcastLogo />
-                </div>
-                <div className="text-white font-['Inter'] font-bold text-xl">
+                <div className="text-white font-['Inter'] font-bold italic text-xl">
                   My Investor Journal
                 </div>
               </div>

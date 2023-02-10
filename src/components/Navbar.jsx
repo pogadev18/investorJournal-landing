@@ -1,8 +1,6 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
-import { TailcastLogo } from "../assets/logos/TailcastLogo";
-
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -17,10 +15,7 @@ export const Navbar = () => {
         >
           <a className="navbar-link" href="#home" aria-label="Home">
             <div className="flex justify-start items-center grow basis-0">
-              <div className="text-white mr-2 text-6xl">
-                <TailcastLogo />
-              </div>
-              <div className="text-white font-['Inter'] font-bold text-xl">
+              <div className="text-white font-['Inter'] font-bold italic text-xl">
                 My Investor Journal
               </div>
             </div>
