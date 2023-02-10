@@ -1,4 +1,6 @@
 ---
+import GA from "../components/GA.astro";
+
 import "@fontsource/inter";
 import "@fontsource/inter/500.css";
 import "@fontsource/inter/600.css";
@@ -16,6 +18,8 @@ const { title } = Astro.props;
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- GA4 -->
+    <GA />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />

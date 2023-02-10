@@ -21,45 +21,31 @@ export const FAQ = () => (
           <div className="mb-11 flex flex-wrap -m-1">
             <div className="w-full p-1">
               <FAQBox
-                title="Do you provide any free plan?"
-                content="Lorem ipsum dolor sit amet, to the consectr adipiscing elit.
-              Volutpat tempor to the condi mentum vitae vel purus. Lorem ipsum
-              dolor sit amet, to the consectr adipiscing elit. Volutpat tempor to
-              the condi mentum vitae vel purus. Lorem ipsum dolor sit amet, to the
-              consectr adipiscing elit. Volutpat tempor to the condi mentum vitae
-              vel purus."
-                defaultOpen
+                title="What is My Investor Journal?"
+                content="My Investor Journal provides you with a set of tools and an interface where you can journal your activity
+                as a long-term investor. This is your space where you can add your personal notes for an investment and where you
+                can create & modify your IPS based on the current stage of your life. This is the place the people who are dear to you and for which you will leave your portfolio
+                as a legacy will have access so they can understand your mindset and continue to grow
+                your portfolio. This is the space that will help you to stay disciplined."
               />
             </div>
             <div className="w-full p-1">
               <FAQBox
-                title="How to claim your 25% discount offer?"
-                content="Lorem ipsum dolor sit amet, to the consectr adipiscing elit.
-              Volutpat tempor to the condi mentum vitae vel purus. Lorem
-              ipsum dolor sit amet, to the consectr adipiscing elit.
-              Volutpat tempor to the condi mentum vitae vel purus."
+                title="What not to expect from My Investor Journal?"
+                content="We do not predict if your investments will go up or down if you buy 'X' or you buy 'Y'. We are not telling you how your investments are performing.
+                We do not track your portfolio wealth: how much money you made in the last 30 days, or in the last 6 months, or what is your overall profit. You can't buy stocks or
+                any other form of investment from My Investor Journal."
               />
             </div>
-            <div className="w-full p-1">
-              <FAQBox
-                title="What&rsquo;s your refund policy?"
-                content="Lorem ipsum dolor sit amet, to the consectr adipiscing elit.
-              Volutpat tempor to the condi mentum vitae vel purus."
-              />
-            </div>
-            <div className="w-full p-1">
-              <FAQBox
-                title="How to get support for the product?"
-                content=" Lorem ipsum dolor sit amet, to the consectr adipiscing elit.
-              Volutpat tempor to the condi mentum vitae vel purus. Lorem
-              ipsum dolor sit amet, to the consectr adipiscing elit.
-              Volutpat tempor to the condi mentum vitae vel purus. Lorem
-              ipsum dolor sit amet, to the consectr adipiscing elit.
-              Volutpat tempor to the condi mentum vitae vel purus. Lorem
-              ipsum dolor sit amet, to the consectr adipiscing elit.
-              Volutpat tempor to the condi mentum vitae vel purus."
-              />
-            </div>
+          </div>
+          <div className="flex justify-center">
+            <a
+              className="custom-button-colored w-80 sm:w-55 h-12 mr-0 sm:mb-0"
+              href="#home"
+              aria-label="Presentation Video"
+            >
+              watch the presentation video
+            </a>
           </div>
         </div>
       </div>

@@ -68,31 +68,28 @@ export const InvitationModal = ({ setIsOpen }) => {
             className="w-full h-screen sm:h-auto sm:w-3/4 md:w-3/5 lg:w-[1000px] xl:w-[1100px] sm:rounded-2xl bg-customDarkBgTransparentLighter custom-border-gray-darker py-12 px-8 sm:px-16 backdrop-blur-xl fixed sm:mb-8 fixed mx-auto z-50"
             onClick={(e) => e.stopPropagation()}
           >
-            <div className="flex relative">
-              <div className="w-1/2 hidden lg:inline">
+            <div className="flex flex-col relative md:flex-row">
+              <div className="md:w-1/2 w-full lg:inline">
                 <h2 className="mt-6 mb-2 text-5xl font-bold tracking-normal text-white">
                   Subscribe Now
                 </h2>
-                <h2 className="text-5xl font-bold tracking-normal text-customSecondary">
-                  Winter is coming
-                </h2>
 
-                <ul className="mb-6 text-white mt-12">
+                <ul className="mb-2 md:mb-6 text-white mt-12">
                   <li className="mb-4 flex">
                     <CheckArrowIcon />
-                    <span>Vestibulum viverra</span>
+                    <span>be the first to know about any updates</span>
                   </li>
                   <li className="mb-4 flex">
                     <CheckArrowIcon />
-                    <span>Morbi mollis metus pretium</span>
+                    <span>test the application when it comes out</span>
                   </li>
                   <li className="mb-4 flex">
                     <CheckArrowIcon />
-                    <span>Etiam lectus nunc, commodo</span>
+                    <span>first 50 users will have extra benefits</span>
                   </li>
                 </ul>
               </div>
-              <div className="w-full lg:w-1/2 flex items-center flex-col justify-center pt-24 sm:pt-0">
+              <div className="w-full lg:w-1/2 flex items-center flex-col justify-center pt-8 md:pt-24 sm:pt-0">
                 <div className="flex inline lg:hidden justify-start items-center grow basis-0 mb-8 pr-6">
                   <div className="text-white mr-2 text-8xl">
                     <TailcastLogo />
@@ -129,7 +126,6 @@ export const InvitationModal = ({ setIsOpen }) => {
                             id="newsletterInput"
                             type="email"
                             disabled={isLoading}
-                            placeholder="Your email address"
                           />
                           {isLoading ? (
                             <p className="text-white mt-2">submitting...</p>
