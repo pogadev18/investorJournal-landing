@@ -73,11 +73,15 @@ export const Hero = () => {
           transition={{ duration: 0.5, delay: 0.15 }}
         >
           <div className="relative w-screen flex justify-center ">
-            <img
-              src={dashboard}
-              alt="123"
-              className="w-4/5 2xl:w-[1200px] mx-auto absolute z-10 rounded-xl  custom-border-gray hero-dashboard-border-gradient lg:top-6 xl:top-0"
-            />
+            <iframe
+              width="1200"
+              height="615"
+              src="https://www.youtube.com/embed/mqiQd1ooh8I"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+            ></iframe>
           </div>
         </motion.div>
         <div className="relative w-screen flex justify-center ">

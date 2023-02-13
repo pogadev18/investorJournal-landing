@@ -54,7 +54,7 @@ export const FeaturesDiagonal = () => {
             <img
               src={featuresdiagonal}
               alt="f1"
-              className="rounded-xl  custom-border-gray"
+              className="rounded-xl  custom-border-gray object-contain"
             />
           </div>
         </div>
