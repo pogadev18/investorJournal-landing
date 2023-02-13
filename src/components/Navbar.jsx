@@ -100,14 +100,14 @@ export const Navbar = () => {
               >
                 Feedback
               </a> */}
-              {/* <a
+              <a
                 className="navbar-link"
                 href="#FAQ"
                 onClick={() => setIsOpen(false)}
                 aria-label="FAQ"
               >
                 FAQ
-              </a> */}
+              </a>
             </div>
           </motion.div>
         )}
