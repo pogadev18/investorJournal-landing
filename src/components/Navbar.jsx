@@ -1,5 +1,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import { Menu } from "../assets/icons/Menu";
+import { XIcon } from "../assets/icons/XIcon";
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -50,13 +52,7 @@ export const Navbar = () => {
           className="text-white font-bold lg:hidden flex flex-col  px-2 py-3 cursor-pointer hover:bg-customDarkBg2"
           onClick={() => setIsOpen(!isOpen)}
         >
-          {isOpen ? (
-            <p>close</p>
-          ) : (
-            <>
-              <p>menu</p>
-            </>
-          )}
+          {isOpen ? <XIcon /> : <Menu />}
         </div>
       </div>
       <AnimatePresence>

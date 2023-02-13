@@ -74,7 +74,7 @@ export const Hero = () => {
         >
           <div className="relative w-screen flex justify-center ">
             <iframe
-              width="1200"
+              width="80%"
               height="615"
               src="https://www.youtube.com/embed/mqiQd1ooh8I"
               title="YouTube video player"
