@@ -1,9 +1,5 @@
 import { motion } from "framer-motion";
 
-import feature1 from "../assets/images/feature1.jpg";
-import feature2 from "../assets/images/feature2.jpg";
-import feature3 from "../assets/images/feature3.jpg";
-import feature4 from "../assets/images/feature4.jpg";
 import { CheckArrowIcon } from "../assets/icons/CheckArrowIcon";
 
 export const Features1 = () => {
@@ -29,9 +25,8 @@ export const Features1 = () => {
                 <span className="font-bold text-yellow-500">
                   Everything that you need is in one place now
                 </span>
-                . With "My Investor Journal" you don't have to worry
-                about organizing your investments in more than one place
-                anymore.
+                . With "My Investor Journal" you don't have to worry about
+                organizing your investments in more than one place anymore.
               </p>
               <ul className="mb-6 text-white">
                 <li className="mb-4 flex">
