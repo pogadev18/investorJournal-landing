@@ -60,7 +60,7 @@ export const Hero = () => {
             </div>
           <div className='mt-2 text-white text-lg'>
             <a className='underline' href="https://d0ydvxxqk25.typeform.com/to/HEonoppG" target="_blank">
-              Complete this feedback form after wathching the presentation video </a> 👇
+              Complete this feedback form after watching the presentation video </a> 👇
             </div>
             {/* <div
               className="w-80 sm:w-52 h-12 rounded-xl font-bold text-white border border-solid  flex justify-center items-center cursor-pointer bg-customDarkBg2 hover:bg-customDarkBg3 border-customPrimary transition"
