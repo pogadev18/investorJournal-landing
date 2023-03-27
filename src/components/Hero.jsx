@@ -51,12 +51,16 @@ export const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.15 }}
         >
-          <div className="flex flex-col gap-2 sm:flex-row mt-14 mb-24 sm:mb-40 justify-center">
+          <div className="flex flex-col gap-2 mt-14 mb-24 sm:mb-40 justify-center align-center items-center">
             <div
               className="custom-button-colored w-80 sm:w-52 h-12 mr-0 sm:mb-0"
               onClick={() => setIsModalOpen(true)}
             >
               I'm Interested
+            </div>
+          <div className='mt-2 text-white text-lg'>
+            <a className='underline' href="https://d0ydvxxqk25.typeform.com/to/HEonoppG" target="_blank">
+              Complete this feedback form after wathching the presentation video </a> 👇
             </div>
             {/* <div
               className="w-80 sm:w-52 h-12 rounded-xl font-bold text-white border border-solid  flex justify-center items-center cursor-pointer bg-customDarkBg2 hover:bg-customDarkBg3 border-customPrimary transition"
@@ -65,6 +69,7 @@ export const Hero = () => {
               Live demo
             </div> */}
           </div>
+
         </motion.div>
         <motion.div
           initial={{ opacity: 0, y: 10, zIndex: 20 }}
